@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LoveCam - Receiver</title>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-red-100 flex flex-col items-center justify-center min-h-screen font-sans">
+  <h1 class="text-4xl font-bold text-red-600 mb-4">❤️ LoveCam - Watch Live</h1>
+  <video id="remoteVideo" autoplay playsinline class="rounded-2xl shadow-lg border-4 border-red-500 w-full max-w-md mb-4"></video>
+  <script type="module" src="./receiver.js"></script>
+</body>
+</html>
